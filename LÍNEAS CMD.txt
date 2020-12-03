@@ -1,0 +1,26 @@
+
+(ACTIVAR VISIO 2019 Professional x64) 
+
+PASO 1:
+
+cd /d %ProgramFiles%\Microsoft Office\Office16       LÍNEA PARA 64Bits
+
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16  LÍNEA PARA 32Bits (x86)
+NOTA:SI NO ENCUENTRA LA RUTA DE LINEA DE TEXTO PARA (32 Bits)  USA LA DE ARRIBA DE 64 Bits
+---------------------------------------------------------------------------------------------------------------------------
+PASO 2:
+
+for /f %x in ('dir /b ..\root\Licenses16\visiopro2019vl_kms*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+---------------------------------------------------------------------------------------------------------------------------
+PASO 3:
+
+cscript ospp.vbs /inpkey:9BGNQ-K37YR-RQHF2-38RQ3-7VCBB
+cscript ospp.vbs /sethst:kms8.msguides.com
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /act
+
+
+
+
+
+
